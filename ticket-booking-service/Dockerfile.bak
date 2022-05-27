@@ -5,4 +5,4 @@ FROM java:8
 EXPOSE 8080
 ADD /target/ticket-booking-service-0.0.1-SNAPSHOT.jar ticket-booking-service-0.0.1-SNAPSHOT.jar
 ENTRYPOINT ["java","-jar","ticket-booking-service-0.0.1-SNAPSHOT.jar"]
-ENV SOME=ticket-booking-service
+ENV SOME=SOME1
