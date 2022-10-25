@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:x86_64-ubuntu-jdk-11.0.11_9-slim
+FROM adoptopenjdk/openjdk8:x86_64-ubuntu-jre8u345-b01
 EXPOSE 8080
 ADD /target/ticket-booking-service-0.0.1-SNAPSHOT.jar ticket-booking-service-0.0.1-SNAPSHOT.jar
 ENTRYPOINT ["java","-jar","ticket-booking-service-0.0.1-SNAPSHOT.jar"]
